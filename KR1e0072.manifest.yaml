@@ -1,0 +1,84 @@
+canonical_identifier: bkk:krp/KR1e0072/v1
+canonical_location: https://kanripo.org/bkk/KR1e0072/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 春秋春王正月考
+  date: '2015-08-24 22:15:33.210047'
+  source:
+    repository: kanripo
+    path: KR1e0072
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR1e0072_000.yaml, hash: 'sha256:7b81b597f0fd6770a864711c4aedc1bce1d0e7a633f45c06d5352fa0952aa189'}
+  - {seq: 1, filename: KR1e0072_001.yaml, hash: 'sha256:243bcbea897986ae1a6a3394540a1f439a43ad472278cf5d1f3c61143d14a8d6'}
+  - {seq: 2, filename: KR1e0072_002.yaml, hash: 'sha256:ca320522d1b86a505cb29c413ca2391e310265d6d84c91b1e4bc5948cc992e01'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR1e0072_000.markers.yaml, hash: 'sha256:7e8cf8d3882b7de8de9291f836443659263781902cec146a6626699479e93222'}
+  - {seq: 1, role: markers, filename: assets/KR1e0072_001.markers.yaml, hash: 'sha256:fc64e6b778225bead30711e47f257ea89bce9843d8fc7188f309b583387eb990'}
+  - {seq: 2, role: markers, filename: assets/KR1e0072_002.markers.yaml, hash: 'sha256:1b26b327c63d24ff42a85421f73affcdb16583644bc2a858dd1f1ac2ac5fc29d'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR1e0072_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 333
+  label: 御製書春秋元年春王正月考
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR1e0072_WYG_000-3a
+    span:
+    - body
+    - 333
+    - 913
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR1e0072_WYG_000-6a
+    span:
+    - body
+    - 913
+    - 1444
+  label: 序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR1e0072_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 15787
+  label: 春秋春王正月考
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR1e0072_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 10962
+  label: 辨疑
+  type: section
+  level: 1
+hash: sha256:a224bb482fe2956f7532841debdfecce26bf92293872d494c22a6d158a26f37b
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
